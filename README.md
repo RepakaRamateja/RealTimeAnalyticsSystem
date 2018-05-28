@@ -88,44 +88,47 @@ Open the TopNTweetTopology file which is located in the below path
 Then enter below mentioned in the string literals (follow the order)
 
 Costomer Key
+
 Secret Key
+
 Access Token
+
 Access Secret
 
 
 Then Navigate to the project root directory through terminal
 
-execute below commands:
+Execute below commands:
    
- vagrant up   
+    vagrant up   
 
- vagrant ssh
+    vagrant ssh
 
- cd /vagrant/AnalyticsSystem
+    cd /vagrant/AnalyticsSystem
 
- mvn package
+    mvn package
 
- storm jar target/udacity-storm-lesson3_stage5-0.0.1-SNAPSHOT-jar-with-dependencies.jar udacity.storm.TopNTweetTopology
+    storm jar target/udacity-storm-lesson3_stage5-0.0.1-SNAPSHOT-jar-with-dependencies.jar udacity.storm.TopNTweetTopology
 
- open another terminal
+    open another terminal
 
- Then Navigate to the project root directory through terminal
+    Then Navigate to the project root directory through terminal
 
- execute below commands:
+    Execute below commands:
    
- vagrant up   
+    vagrant up   
 
- vagrant ssh
+    vagrant ssh
 
- cd /vagrant/viz
+    cd /vagrant/viz
 
- python app.py  --- launches the visualization. Built by using Flask python based micro frame work
+    python app.py  --- launches the visualization. Built by using Flask python based micro frame work
 
- Now navigate to the browser and enter url as http://localhost:5000
+    Now navigate to the browser and enter url as http://localhost:5000
 
 </br>
 
- Visualization output:
+    Visualization output:
 
  ![alt text](https://github.com/RepakaRamateja/RealTimeAnalyticsSystem/blob/master/Output.png)
 
@@ -133,7 +136,7 @@ execute below commands:
 
 Future Scope:
 
-Display more number of tweets in the visualization rather than single dynamic tweet which contains TopN hash tags
+   Display more number of tweets in the visualization rather than single dynamic tweet which contains TopN hash tags
 
 
 
