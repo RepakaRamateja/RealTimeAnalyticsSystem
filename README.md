@@ -2,13 +2,14 @@
   
 </br>
 
-    Dynamic visualization of tweets is quite trending now a days. This project mainly focuses on dynamic visualization of the tweets which contain topN hash tags. N can be any number eg : 1,10,20 etc.
+Dynamic visualization of tweets is quite trending now a days.
+This project mainly focuses on dynamic visualization of the tweets which contain topN hash tags. N can be any number eg : 1,10,20 etc.
 
 </br>
 
    Approach:
 
-    Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that kes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
+Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that kes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
 
 
    Technologies Used:
