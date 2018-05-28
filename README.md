@@ -2,30 +2,30 @@
   
 </br>
 
-Dynamic visualization of tweets is quite trending now a days. This project mainly focuses on dynamic visualization of the tweets which contain topN hash tags. N can be any number eg : 1,10,20 etc.
+    Dynamic visualization of tweets is quite trending now a days. This project mainly focuses on dynamic visualization of the tweets which contain topN hash tags. N can be any number eg : 1,10,20 etc.
 
 </br>
 
-Approach:
+   Approach:
 
-Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that kes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
+    Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that kes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
 
 
-Technologies Used:
+   Technologies Used:
 
-Java 
+     Java 
 
-Twitter streaming using Twitter 4j api
+     Twitter streaming using Twitter 4j api
 
-Apache Storm (Distributed Real Time Computation System)
+     Apache Storm (Distributed Real Time Computation System)
 
-Redis (In memory database)
+     Redis (In memory database)
 
-HTML, CSS, D3.js 
+     HTML, CSS, D3.js 
 
-Python
+     Python
 
-Flask frame work
+     Flask frame work
 
 
 Storm Topology Used:
