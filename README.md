@@ -65,9 +65,6 @@ VirtualBox
 
 </br>
 
-Navigate to the project directory through Terminal(Mac) or PowerShell(Windows).
-
-Project Execution Steps:
 
 Create a twitter app (See the below link)
 
