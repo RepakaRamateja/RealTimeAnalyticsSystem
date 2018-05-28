@@ -98,6 +98,7 @@ public class TweetsWithTopHashtagsBolt extends BaseRichBolt
         tag = (String)r.getObject();
         count = r.getCount();
         tagMap.put(tag, count);
+        
       }
 
     }

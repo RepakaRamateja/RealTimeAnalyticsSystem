@@ -43,10 +43,10 @@ Count HashtagBolt: has an HashMap for counting every hashtag (the key is the has
 
 IntermediateRankginsBolt: the one used in the course with no modifications.
 
-TotalRankginsBolt: the one used in the course with no modifications.
+TotalRankingsBolt (total-ranker): the one used in the course with no modifications.
 
 
-TweetsWithTopHashtagsBolt: this bolt receives data both from the TweetSpout and the TotalRankingsBolt; if the data come from the TotalRankingBolt, it updates an internal Rankings object with the one received, so that it has always the updated hashtags rankings. If the data come from the TweetSpout, it checks if the tweet contains one or more hashtags and if at least one of them is contained in the rankings object: if true emits the tweet to the ReportBolt, otherwise it will be discarded. The tweet is emitted to the next bolt along with the size of the font to display it: the higher rank the hashtag has, the bigger the font will be (this value is normalized against the max rank to avoid too big fonts).
+TweetsWithTopHashtagsBolt (top-tweets): this bolt receives data both from the TweetSpout and the TotalRankingsBolt; if the data come from the TotalRankingBolt, it updates an internal Rankings object with the one received, so that it has always the updated hashtags rankings. If the data come from the TweetSpout, it checks if the tweet contains one or more hashtags and if at least one of them is contained in the rankings object: if true emits the tweet to the ReportBolt, otherwise it will be discarded. The tweet is emitted to the next bolt along with the size of the font to display it: the higher rank the hashtag has, the bigger the font will be (this value is normalized against the max rank to avoid too big fonts).
 
 
 ReportBolt: this Bolt publishes the data to the Redis instance.
