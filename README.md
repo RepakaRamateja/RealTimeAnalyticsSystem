@@ -9,7 +9,7 @@ This project mainly focuses on dynamic visualization of the tweets which contain
 
    Approach:
 
-Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that kes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
+Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that takes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
 
 
    Technologies Used:
