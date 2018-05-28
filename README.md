@@ -54,15 +54,15 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 
 </br>
 
-Instructions to execute the project:
+     Instructions to execute the project:
 
 </br>
 
-prerequisites : 
+     prerequisites : 
 
-Vagrant 
+        Vagrant 
 
-VirtualBox
+        VirtualBox
 
 </br>
 
