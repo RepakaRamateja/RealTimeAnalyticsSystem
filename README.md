@@ -32,7 +32,7 @@ Storm Topology Used:
 
 </br>
 
-![alt text](https://github.com/RepakaRamateja/Worldwidetophashtags/blob/master/topology.png)
+![alt text](https://github.com/RepakaRamateja/RealTimeAnalyticsSystem/blob/master/topology.png)
 
 ParseTweetBolt: receives every tweet emitted by the TweetSpout, parses them to find hashtags and emits each of them (if any).
 
@@ -130,7 +130,7 @@ execute below commands:
 
  Visualization output:
 
- ![alt text](https://github.com/RepakaRamateja/Worldwidetophashtags/blob/master/output.png)
+ ![alt text](https://github.com/RepakaRamateja/RealTimeAnalyticsSystem/blob/master/Output.png)
 
 </br>
 
