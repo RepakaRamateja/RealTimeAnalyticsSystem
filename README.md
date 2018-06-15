@@ -19,6 +19,9 @@ Started with a storm topology that calculates TopN Hashtags and then wrote new B
 
 ## Technology stack
 
+![alt text](https://github.com/RepakaRamateja/RealTimeAnalyticsSystem/blob/master/stack.png)
+
+
 </br>    
 
 
@@ -113,7 +116,7 @@ locate the below code in the source code
 
 Then enter below mentioned in the string literals (follow the order)
 
-Costomer Key
+Customer Key
 
 Secret Key
 
