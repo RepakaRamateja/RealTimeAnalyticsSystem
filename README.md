@@ -84,14 +84,13 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 
 </br>
 
-### prerequisites required: 
+Install Vagrant (See the below link)
 
-    Vagrant 
+https://www.vagrantup.com/docs/installation/ 
 
-    VirtualBox
+Install VirtualBox (See the below link)
 
-</br>
-
+https://www.virtualbox.org/manual/ch01.html
 
 Create a twitter app (See the below link)
 
