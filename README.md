@@ -11,8 +11,6 @@ This project mainly focuses on dynamic visualization of the tweets which contain
 Real-time dynamic visualization of tweets that contain worldwide top hashtags.
 
 
-</br>
-
 ## Design:
 
 Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that takes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
@@ -82,11 +80,11 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 
 </br>
 
-## Instructions to execute the project:
+## Instructions for project execution :
 
 </br>
 
-### prerequisites : 
+### prerequisites required: 
 
     Vagrant 
 
@@ -95,12 +93,12 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 </br>
 
 
-Create a twitter app (See the below link)
+• Create a twitter app (See the below link)
 
   http://docs.inboundnow.com/guide/create-twitter-application/
 
 
-Open the TopNTweetTopology file which is located in the below path 
+• Open the TopNTweetTopology file which is located in the below path 
 
    AnalyticsSystem - src - jvm - udacity - storm  
 
@@ -125,9 +123,9 @@ Access Token
 Access Secret
 
 
-Then Navigate to the project root directory through terminal
+• Then Navigate to the project root directory through terminal
 
-### Execute below commands:
+•   Execute below commands:
    
     vagrant up   
 
