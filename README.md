@@ -80,7 +80,7 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 
 </br>
 
-## Instructions for project execution :
+## Instructions for Project Execution :
 
 </br>
 
