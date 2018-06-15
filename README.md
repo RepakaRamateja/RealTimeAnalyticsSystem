@@ -1,35 +1,60 @@
 # RealTimeAnalyticsSystem
+
+Dynamic visualization of tweets is quite trending now a days.
+This project mainly focuses on dynamic visualization of the tweets which contain world wide topN hash tags. N can be any number eg : 1,10,20 etc.
+
   
 </br>
 
-Dynamic visualization of tweets is quite trending now a days.
-This project mainly focuses on dynamic visualization of the tweets which contain topN hash tags. N can be any number eg : 1,10,20 etc.
+## Goal
+
+Real-time dynamic visualization of tweets that contain worldwide top hashtags.
+
 
 </br>
 
-   Approach:
+## Design:
 
 Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that takes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
 
+## Technology stack
 
-   Technologies Used:
-
-     Java 
-
-     Twitter streaming using Twitter 4j api
-
-     Apache Storm (Distributed Real Time Computation System)
-
-     Redis (In memory database)
-
-     HTML, CSS, D3.js 
-
-     Python
-
-     Flask frame work
+</br>    
 
 
-Storm Topology Used:
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Technology</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Front-End</td>
+        <td> HTML, CSS, D3.js , Java script </td>
+    </tr>
+    <tr>
+        <td>Back-End</td>
+        <td>Flask (Python) </td>
+    </tr>
+  <tr>
+        <td>Distributed Real Time Computation System</td>
+        <td>Apache Storm (Java)</td>
+    </tr>
+    <tr>
+        <td>In-Memory Caching / Datastore</td>
+        <td>Redis</td>
+    </tr>
+    <tr>
+        <td>Other APIs Used</td>
+        <td>Twitter streaming using Twitter 4j api</td>
+    </tr>
+</tbody>
+</table>
+
+
+## Storm Topology Used:
 
 </br>
 
@@ -54,15 +79,15 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 
 </br>
 
-     Instructions to execute the project:
+## Instructions to execute the project:
 
 </br>
 
-     prerequisites : 
+### prerequisites : 
 
-        Vagrant 
+    Vagrant 
 
-        VirtualBox
+    VirtualBox
 
 </br>
 
@@ -129,13 +154,13 @@ Execute below commands:
 
 </br>
 
-    Visualization output:
+## Visualization output:
 
  ![alt text](https://github.com/RepakaRamateja/RealTimeAnalyticsSystem/blob/master/Output.png)
 
 </br>
 
-    Future Scope:
+## Future Scope:
 
    Display more number of tweets in the visualization rather than single dynamic tweet which contains TopN hash tags
 
