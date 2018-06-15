@@ -93,16 +93,16 @@ ReportBolt: this Bolt publishes the data to the Redis instance.
 </br>
 
 
-• Create a twitter app (See the below link)
+Create a twitter app (See the below link)
 
-  http://docs.inboundnow.com/guide/create-twitter-application/
+http://docs.inboundnow.com/guide/create-twitter-application/
 
 
-• Open the TopNTweetTopology file which is located in the below path 
+Open the TopNTweetTopology file which is located in the below path 
 
-   AnalyticsSystem - src - jvm - udacity - storm  
+AnalyticsSystem - src - jvm - udacity - storm  
 
-   locate the below code in the source code
+locate the below code in the source code
 
    // now create the tweet spout with the credentials
     TweetSpout tweetSpout = new TweetSpout(
@@ -123,9 +123,9 @@ Access Token
 Access Secret
 
 
-• Then Navigate to the project root directory through terminal
+Then Navigate to the project root directory through terminal
 
-•   Execute below commands:
+Execute below commands:
    
     vagrant up   
 
