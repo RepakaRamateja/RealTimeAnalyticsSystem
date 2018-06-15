@@ -17,6 +17,8 @@ Real-time dynamic visualization of tweets that contain worldwide top hashtags.
 
 Started with a storm topology that calculates TopN Hashtags and then wrote new Bolt that takes TopN Hash tags with a streaming join of real-time tweets. Finally visualized only tweets that contain the TopN Hashtags.
 
+</br>   
+
 ## Technology stack
 
 </br>    
@@ -53,6 +55,7 @@ Started with a storm topology that calculates TopN Hashtags and then wrote new B
 </tbody>
 </table>
 
+</br>   
 
 ## Storm Topology Used:
 
@@ -124,7 +127,7 @@ Access Secret
 
 Then Navigate to the project root directory through terminal
 
-Execute below commands:
+### Execute below commands:
    
     vagrant up   
 
